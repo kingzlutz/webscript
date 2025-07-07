@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BotCraft Pro - Pembuatan Script Bot Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="bot-icon">
+                <i class="fas fa-robot"></i>
+            </div>
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">BotCraft<span>Pro</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#features">Fitur</a></li>
+                <li><a href="#builder">Pembuat Bot</a></li>
+                <li><a href="#templates">Template</a></li>
+                <li><a href="#pricing">Harga</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#" class="btn-login">Masuk</a>
+                <a href="#" class="btn-register">Daftar</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Buat Bot Kustom <span>Tanpa Koding</span></h1>
+                <p class="hero-subtitle">Platform canggih untuk membuat script bot otomatis dengan antarmuka drag-and-drop yang mudah</p>
+                <div class="hero-buttons">
+                    <a href="#builder" class="btn-primary">Coba Sekarang <i class="fas fa-arrow-right"></i></a>
+                    <a href="#features" class="btn-secondary">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/bot-hero.png" alt="Bot Illustration" class="floating">
+                <div class="glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Fitur <span>Unggulan</span></h2>
+            <p class="section-subtitle">Semua yang Anda butuhkan untuk membuat bot yang powerful</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Pembangun Visual</h3>
+                    <p>Buat alur kerja bot dengan antarmuka drag-and-drop yang intuitif tanpa menulis kode.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Kecerdasan AI</h3>
+                    <p>Integrasi dengan model AI terbaru untuk pemrosesan bahasa alami dan pengambilan keputusan.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>Integrasi API</h3>
+                    <p>Terhubung dengan ratusan layanan populer melalui konektor API bawaan.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Performa Tinggi</h3>
+                    <p>Eksekusi cepat dengan infrastruktur cloud terdistribusi kami.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Keamanan Premium</h3>
+                    <p>Enkripsi end-to-end dan perlindungan data tingkat enterprise.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analitik Lanjutan</h3>
+                    <p>Pantau kinerja bot dengan dashboard analitik real-time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bot Builder Section -->
+    <section id="builder" class="bot-builder">
+        <div class="container">
+            <div class="builder-content">
+                <h2 class="section-title">Pembangun <span>Bot</span></h2>
+                <p class="section-subtitle">Buat script bot kustom Anda dalam hitungan menit</p>
+                
+                <div class="builder-steps">
+                    <div class="step active">
+                        <span>1</span>
+                        <p>Pilih Template</p>
+                    </div>
+                    <div class="step">
+                        <span>2</span>
+                        <p>Konfigurasi Alur</p>
+                    </div>
+                    <div class="step">
+                        <span>3</span>
+                        <p>Tambahkan Logika</p>
+                    </div>
+                    <div class="step">
+                        <span>4</span>
+                        <p>Deploy</p>
+                    </div>
+                </div>
+                
+                <div class="builder-interface">
+                    <div class="toolbox">
+                        <h4>Blok Fungsi</h4>
+                        <div class="toolbox-items">
+                            <div class="toolbox-item" draggable="true">
+                                <i class="fas fa-comment"></i>
+                                <span>Respons Pesan</span>
+                            </div>
+                            <div class="toolbox-item" draggable="true">
+                                <i class="fas fa-database"></i>
+                                <span>Akses Data</span>
+                            </div>
+                            <div class="toolbox-item" draggable="true">
+                                <i class="fas fa-calculator"></i>
+                                <span>Proses Logika</span>
+                            </div>
+                            <div class="toolbox-item" draggable="true">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Panggil API</span>
+                            </div>
+                            <div class="toolbox-item" draggable="true">
+                                <i class="fas fa-clock"></i>
+                                <span>Jadwalkan Tugas</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="workspace">
+                        <div class="workspace-header">
+                            <h4>Alur Kerja Bot Anda</h4>
+                            <div class="workspace-actions">
+                                <button class="btn-workspace"><i class="fas fa-play"></i> Jalankan</button>
+                                <button class="btn-workspace"><i class="fas fa-save"></i> Simpan</button>
+                            </div>
+                        </div>
+                        <div class="flow-canvas" id="flowCanvas">
+                            <!-- Flow elements will be added here dynamically -->
+                        </div>
+                    </div>
+                    
+                    <div class="properties-panel">
+                        <h4>Properti Blok</h4>
+                        <div class="property-form">
+                            <div class="form-group">
+                                <label>Nama Blok</label>
+                                <input type="text" placeholder="Masukkan nama blok">
+                            </div>
+                            <div class="form-group">
+                                <label>Tipe Respons</label>
+                                <select>
+                                    <option>Text</option>
+                                    <option>Gambar</option>
+                                    <option>File</option>
+                                    <option>Menu</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Pesan</label>
+                                <textarea placeholder="Masukkan pesan respon"></textarea>
+                            </div>
+                            <button class="btn-primary">Terapkan Perubahan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Templates Section -->
+    <section id="templates" class="templates">
+        <div class="container">
+            <h2 class="section-title">Template <span>Siap Pakai</span></h2>
+            <p class="section-subtitle">Mulai cepat dengan template yang telah teruji</p>
+            
+            <div class="templates-grid">
+                <div class="template-card">
+                    <div class="template-image">
+                        <img src="images/chatbot-template.jpg" alt="Chatbot Template">
+                        <div class="template-badge">Populer</div>
+                    </div>
+                    <div class="template-content">
+                        <h3>Chatbot Customer Service</h3>
+                        <p>Bot penjawab pertanyaan pelanggan secara otomatis 24/7.</p>
+                        <div class="template-meta">
+                            <span><i class="fas fa-download"></i> 1.2K</span>
+                            <span><i class="fas fa-star"></i> 4.8</span>
+                        </div>
+                        <a href="#" class="btn-template">Gunakan Template <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="template-card">
+                    <div class="template-image">
+                        <img src="images/social-template.jpg" alt="Social Media Template">
+                    </div>
+                    <div class="template-content">
+                        <h3>Social Media Auto-Poster</h3>
+                        <p>Otomatisasi posting konten ke berbagai platform media sosial.</p>
+                        <div class="template-meta">
+                            <span><i class="fas fa-download"></i> 890</span>
+                            <span><i class="fas fa-star"></i> 4.6</span>
+                        </div>
+                        <a href="#" class="btn-template">Gunakan Template <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="template-card">
+                    <div class="template-image">
+                        <img src="images/data-template.jpg" alt="Data Processing Template">
+                        <div class="template-badge">Baru</div>
+                    </div>
+                    <div class="template-content">
+                        <h3>Data Processing Bot</h3>
+                        <p>Ekstrak, transformasi, dan load data dari berbagai sumber.</p>
+                        <div class="template-meta">
+                            <span><i class="fas fa-download"></i> 450</span>
+                            <span><i class="fas fa-star"></i> 4.9</span>
+                        </div>
+                        <a href="#" class="btn-template">Gunakan Template <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="templates-cta">
+                <a href="#" class="btn-primary">Lihat Semua Template <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Paket <span>Harga</span></h2>
+            <p class="section-subtitle">Pilih paket yang sesuai dengan kebutuhan Anda</p>
+            
+            <div class="pricing-switch">
+                <span>Bulanan</span>
+                <label class="switch">
+                    <input type="checkbox" id="pricingToggle">
+                    <span class="slider round"></span>
+                </label>
+                <span>Tahunan <span class="discount-badge">Hemat 20%</span></span>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <p>Cocok untuk pemula dan proyek kecil</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price">Rp99.000</span>
+                        <span class="period">/bulan</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 5 Bot Aktif</li>
+                        <li><i class="fas fa-check"></i> 10.000 Eksekusi/bulan</li>
+                        <li><i class="fas fa-check"></i> 3 Integrasi API</li>
+                        <li><i class="fas fa-check"></i> Dukungan Email</li>
+                        <li><i class="fas fa-times"></i> Fitur AI Premium</li>
+                    </ul>
+                    <a href="#" class="btn-pricing">Mulai Sekarang</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Rekomendasi</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <p>Untuk bisnis kecil dan menengah</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price">Rp299.000</span>
+                        <span class="period">/bulan</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 20 Bot Aktif</li>
+                        <li><i class="fas fa-check"></i> 100.000 Eksekusi/bulan</li>
+                        <li><i class="fas fa-check"></i> 15 Integrasi API</li>
+                        <li><i class="fas fa-check"></i> Dukungan Prioritas</li>
+                        <li><i class="fas fa-check"></i> Fitur AI Dasar</li>
+                    </ul>
+                    <a href="#" class="btn-pricing featured">Mulai Sekarang</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <p>Solusi lengkap untuk kebutuhan bisnis besar</p>
+                    </div>
+                    <div class="pricing-price">
+                        <span class="price">Rp899.000</span>
+                        <span class="period">/bulan</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Bot Tidak Terbatas</li>
+                        <li><i class="fas fa-check"></i> Eksekusi Tidak Terbatas</li>
+                        <li><i class="fas fa-check"></i> Integrasi API Tidak Terbatas</li>
+                        <li><i class="fas fa-check"></i> Dukungan 24/7</li>
+                        <li><i class="fas fa-check"></i> Semua Fitur AI Premium</li>
+                    </ul>
+                    <a href="#" class="btn-pricing">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Butuh <span>Bantuan?</span></h2>
+                <p class="section-subtitle">Tim kami siap membantu Anda 24/7</p>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>support@botcraftpro.id</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Telepon</h4>
+                            <p>+62 21 1234 5678</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Kantor</h4>
+                            <p>Jl. Sudirman No. 123, Jakarta Selatan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subjek">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Pesan Anda" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo">BotCraft<span>Pro</span></a>
+                    <p>Platform pembuatan script bot paling canggih dengan antarmuka visual yang mudah digunakan.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#">Fitur</a></li>
+                        <li><a href="#">Harga</a></li>
+                        <li><a href="#">Template</a></li>
+                        <li><a href="#">Integrasi</a></li>
+                        <li><a href="#">Pembaruan</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Dukungan</h4>
+                    <ul>
+                        <li><a href="#">Pusat Bantuan</a></li>
+                        <li><a href="#">Dokumentasi</a></li>
+                        <li><a href="#">Tutorial</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                        <li><a href="#">Kebijakan Cookie</a></li>
+                        <li><a href="#">Lisensi</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 BotCraftPro. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Kebijakan Privasi</a>
+                    <a href="#">Syarat Layanan</a>
+                    <a href="#">Peta Situs</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
